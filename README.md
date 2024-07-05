@@ -1,8 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brainn Frontend Challenge
+
+This repository contains the code for the Brainn Frontend Challenge, a web application that displays lottery results. The goal is to build a simple, responsive, and fun application using modern web technologies.
 
 ## Getting Started
 
-First, run the development server:
+This project is built with [Next.js](https://nextjs.org/), bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+Install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### Running the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -14,23 +38,26 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Lottery Types**: Supports 6 lottery types - Mega-sena, Quina, Lotofácil, Lotomania, Timemania, and Dia de sorte.
+- **Dynamic Theme**: Changes theme, draw number, draw date, and drawn numbers based on the selected lottery type.
+- **Responsive Design**: Ensures a good experience on mobile devices as per the provided layout.
+- **API Integration**: Fetches lottery data from the provided API via REST or GraphQL.
 
-## Learn More
+### Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **React** with **TypeScript**
+- **Next.js**
+- **Tailwind CSS**
+- **GraphQL**
+- **React Hook Form** and **Zod**
+- **React Testing Library** and/or **Cypress** for testing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Layout**: [Figma Design](https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge)
+- **API**: [Brainn API](https://brainn-api-loterias.herokuapp.com)
+- **Typography**: Montserrat (webfont)
